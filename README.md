@@ -1,1 +1,3 @@
-# Little Things app for communication
+# Little Things 
+# app for communication
+ between long distance couples
