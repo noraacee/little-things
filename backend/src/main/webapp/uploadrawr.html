@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Rawr</title>
+</head>
+<body>
+<h1>Rawr</h1>
+<div>
+    <form action="javascript:upload()">
+        <p><input type="text" id="rawrurl" placeholder="Rawr Url"></p>
+        <p><input type="text" id="title" placeholder="Title"></p>
+        <input type="submit" value="Upload">
+    </form>
+</div>
+<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+<script>
+    function upload() {
+        $.ajax({
+            html: "rawr",
+            async: true,
+            type: "POST",
+            data: {
+                "rawrurl": document.getElementById("rawrurl").value,
+                "title": document.getElementById("title").value,
+                "writer": "false"
+            },
+            success: function(data, textStatus, resp) {
+                alert("Done");
+            },
+            error: function(resp, textStatus, errorThrown) {
+                alert(textStatus);
+            }
+        });
+    }
+</script>
+</body>
+</html>

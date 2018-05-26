@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<badtzmarupekkle.littlethings.widget.RefreshGridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/entities"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="16dp"
+    android:horizontalSpacing="2dp"
+    android:listSelector="@android:color/transparent"
+    android:numColumns="2"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:scrollbars="none"
+    android:scrollingCache="false"
+    android:stretchMode="columnWidth"
+    android:verticalSpacing="2dp" />

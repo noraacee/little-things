@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true">
+
+    <badtzmarupekkle.littlethings.widget.SnowflakeView
+        android:id="@+id/snow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/underline_gradient"
+        android:cursorVisible="false"
+        android:gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:minEms="10"
+        android:paddingBottom="3dp"
+        android:singleLine="true"
+        android:textColor="@android:color/white" />
+</FrameLayout>

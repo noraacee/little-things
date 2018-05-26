@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+    <servlet>
+        <servlet-name>SystemServiceServlet</servlet-name>
+        <servlet-class>com.google.api.server.spi.SystemServiceServlet</servlet-class>
+        <init-param>
+            <param-name>services</param-name>
+            <param-value>
+                badtzmarupekkle.littlethings.endpoint.PostEndpoint,badtzmarupekkle.littlethings.endpoint.RawrEndpoint,badtzmarupekkle.littlethings.endpoint.SongEndpoint, badtzmarupekkle.littlethings.endpoint.TimeSlotEndpoint,badtzmarupekkle.littlethings.endpoint.WriterEndpoint
+            </param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SystemServiceServlet</servlet-name>
+        <html-pattern>/_ah/spi/*</html-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BlobUploadHandler</servlet-name>
+        <servlet-class>badtzmarupekkle.littlethings.handler.BlobUploadHandler</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BlobUploadHandler</servlet-name>
+        <html-pattern>/upload</html-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SongServlet</servlet-name>
+        <servlet-class>badtzmarupekkle.littlethings.handler.SongServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SongServlet</servlet-name>
+        <html-pattern>/serve</html-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SongUploadHandler</servlet-name>
+        <servlet-class>badtzmarupekkle.littlethings.handler.SongUploadHandler</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SongUploadHandler</servlet-name>
+        <html-pattern>/song</html-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RawrHandler</servlet-name>
+        <servlet-class>badtzmarupekkle.littlethings.handler.RawrHandler</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RawrHandler</servlet-name>
+        <html-pattern>/rawr</html-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UploadSongServlet</servlet-name>
+        <servlet-class>badtzmarupekkle.littlethings.handler.UploadSongServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadSongServlet</servlet-name>
+        <html-pattern>/uploadsong</html-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>

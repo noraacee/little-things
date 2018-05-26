@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">Little Things</string>
+    <string name="delete">Do you wish to delete this?</string>
+    <string name="description">Description (Optional)</string>
+    <string name="end">End Time</string>
+    <string name="hint_location"><i>Location</i></string>
+    <string name="hint_name"><i>Name</i></string>
+    <string name="hint_post"><i>Blog about something...</i></string>
+    <string name="image_description">Image</string>
+    <string name="start">Start Time</string>
+    
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>

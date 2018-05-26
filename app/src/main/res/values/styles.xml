@@ -1,0 +1,136 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Display4_Black">
+        <item name="android:textColor">@color/black_54</item>
+        <item name="android:textSize">112sp</item>
+    </style>
+    <style name="Display3_Black">
+        <item name="android:textColor">@color/black_54</item>
+        <item name="android:textSize">56sp</item>
+
+    </style>
+    <style name="Display2_Black">
+        <item name="android:textColor">@color/black_54</item>
+        <item name="android:textSize">45sp</item>
+
+    </style>
+    <style name="Display1_Black">
+        <item name="android:textColor">@color/black_54</item>
+        <item name="android:textSize">34sp</item>
+
+    </style>
+    <style name="Headline_Black">
+        <item name="android:textColor">@color/black_87</item>
+        <item name="android:textSize">24sp</item>
+
+    </style>
+    <style name="Title_Black">
+        <item name="android:textColor">@color/black_87</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+    <style name="Subhead_Black">
+        <item name="android:textColor">@color/black_87</item>
+        <item name="android:textSize">16sp</item>
+
+    </style>
+    <style name="Body2_Black">
+        <item name="android:textColor">@color/black_87</item>
+        <item name="android:textSize">14sp</item>
+
+    </style>
+    <style name="Body1_Black">
+        <item name="android:textColor">@color/black_87</item>
+        <item name="android:textSize">14sp</item>
+
+    </style>
+    <style name="Caption_Black">
+        <item name="android:textColor">@color/black_54</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="Menu_Black">
+        <item name="android:textColor">@color/black_87</item>
+        <item name="android:textSize">14sp</item>
+
+    </style>
+    <style name="Button_Black">
+        <item name="android:textColor">@color/black_87</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Display4_White">
+        <item name="android:textColor">@color/white_70</item>
+        <item name="android:textSize">112sp</item>
+    </style>
+    <style name="Display3_White">
+        <item name="android:textColor">@color/white_70</item>
+        <item name="android:textSize">56sp</item>
+
+    </style>
+    <style name="Display2_White">
+        <item name="android:textColor">@color/white_70</item>
+        <item name="android:textSize">45sp</item>
+
+    </style>
+    <style name="Display1_White">
+        <item name="android:textColor">@color/white_70</item>
+        <item name="android:textSize">34sp</item>
+
+    </style>
+    <style name="Headline_White">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">24sp</item>
+
+    </style>
+    <style name="Title_White">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+    <style name="Subhead_White">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+
+    </style>
+    <style name="Body2_White">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+
+    </style>
+    <style name="Body1_White">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+
+    </style>
+    <style name="Caption_White">
+        <item name="android:textColor">@color/white_70</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Menu_White">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+
+    </style>
+    <style name="Button_White">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

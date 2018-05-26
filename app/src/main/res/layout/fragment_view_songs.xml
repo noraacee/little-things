@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<badtzmarupekkle.littlethings.widget.RefreshListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/entities"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="8dp"
+    android:fadingEdgeLength="0dp"
+    android:listSelector="@android:color/transparent"
+    android:scrollbars="none"
+    android:scrollingCache="false" />

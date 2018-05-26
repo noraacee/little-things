@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="RefreshViewPagerTabs">
+        <attr name="rvptIndicatorHeight" format="dimension" />
+        <attr name="rvptScrollOffset" format="dimension" />
+        <attr name="rvptTabPadding" format="dimension" />
+    </declare-styleable>
+</resources>
